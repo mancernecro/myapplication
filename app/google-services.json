@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1064742989603",
+    "project_id": "testproject-3b438",
+    "storage_bucket": "testproject-3b438.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064742989603:android:b7f5f0bf1be388ece9a696",
+        "android_client_info": {
+          "package_name": "com.example.livemart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064742989603-pd2bk2ic9fbj7mv8f49kc8je9n6pm8m4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.livemart",
+            "certificate_hash": "f87947b420e480d7028b1008e2cf3b1e1db0ba8e"
+          }
+        },
+        {
+          "client_id": "1064742989603-0jruqcchu3lvq2jm7i96abd4t61qs9aa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdx72WoCFblBOuh21M3PIdP9RFgjRLvYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064742989603-0jruqcchu3lvq2jm7i96abd4t61qs9aa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
