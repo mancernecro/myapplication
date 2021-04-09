@@ -4,46 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ReceiveSMS">
+    tools:context=".ReceiveSMS"
+    tools:layout_editor_absoluteY="25dp">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="183dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="129dp"
-        android:layout_marginBottom="58dp"
-        android:text="@string/enter_otp"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextNumber"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextNumber"
-        android:layout_width="162dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="225dp"
-        android:layout_marginBottom="43dp"
-        android:autofillHints="@string/sms_otp"
-        android:ems="10"
-        android:hint="@string/sms_otp"
-        android:inputType="number"
-        android:maxLength="6"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="275dp"
-        android:text="@string/verify_prompt"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="129dp"
+            android:text="@string/enter_otp"
+            android:textSize="30sp"
+            android:textColor="#000000"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/otp_box"
+            android:autofillHints="@string/sms_otp"
+            android:ems="10"
+            android:hint="@string/sms_otp"
+            android:inputType="number"
+            android:maxLength="6"
+            android:textSize="20sp" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="275dp"
+            android:text="@string/verify_prompt" />
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
