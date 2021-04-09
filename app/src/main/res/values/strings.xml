@@ -3,4 +3,7 @@
     <string name="sms_otp">OTP</string>
     <string name="enter_otp">Enter OTP</string>
     <string name="verify_prompt">Verify</string>
+    <string name="live_mart">Live Mart</string>
+    <string name="logo_animation">Logo Animation</string>
+    <string name="startup_tag_line">A Smart Online Delivery system</string>
 </resources>
