@@ -6,4 +6,7 @@
     <string name="live_mart">Live Mart</string>
     <string name="logo_animation">Logo Animation</string>
     <string name="startup_tag_line">A Smart Online Delivery system</string>
+    <string name="facebook_app_id">864852604069239</string>
+    <string name="fb_login_protocol_scheme">fb864852604069239</string>
+    <string name="google_login_id">1064742989603-0jruqcchu3lvq2jm7i96abd4t61qs9aa.apps.googleusercontent.com</string>
 </resources>

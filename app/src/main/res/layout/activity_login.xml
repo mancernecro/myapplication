@@ -78,6 +78,19 @@
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"/>
 
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/login_google_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_facebook_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"/>
+
         <Button
             android:id="@+id/signup_screen"
             android:layout_width="match_parent"
